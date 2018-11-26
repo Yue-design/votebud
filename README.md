@@ -2,7 +2,7 @@
 
 A full stack project made with React and Node for people to upvoting their favorite buddhist sites
 
-Url: https:stevemu.com:7000
+Url: https://votebud.stevemu.com/
 
 ## How to Start Developing
 
