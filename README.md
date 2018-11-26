@@ -1,23 +1,24 @@
-## How to Start Developing
+# Best buddhist site
 
-### set up local mongodb
-https://gist.github.com/subfuzion/9630872
+A full stack project made with React and Node for people to upvoting their favorite buddhist sites
+
+Url: https:stevemu.com:7000
+
+## How to Start Developing
 
 ### Set up dotenv file at dotenv/development.env
 
 ```
 JWT_SECRET=abc
-MONGO_URI="mongodb://localhost:27017/best-buddhists-sites"
+MONGO_URI="YOUR MONGODB URI"
 PORT=7000
+NODE_ENV=development
 ```
 
 ### run commands
 ```
-npm install
+npm i
 npm run start-dev
-// test watch
-npm run tw 
-
 ```
 
 ## How to Deploy to Production
@@ -27,10 +28,15 @@ npm run tw
 JWT_SECRET=abc
 MONGO_URI="your mongo URI"
 PORT=7000
+NODE_ENV=production
 ```
 
 ### run commands
 ```
-npm install
+cd client
+npm i
+npm run build
+cd ..
+npm i
 npm run start-prod
 ```
