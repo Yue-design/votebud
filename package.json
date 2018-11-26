@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start-dev": "nodemon -r dotenv/config src/web/index.js dotenv_config_path=dotenv/development.env",
-    "start-prod": "node -r dotenv/config src/web/index.js dotenv_config_path=dotenv/production.env",
+    "start": "node -r dotenv/config src/web/index.js dotenv_config_path=dotenv/production.env",
     "test": "jest",
     "test:watch": "npm run test -- --watch",
     "tw": "npm run test:watch",
